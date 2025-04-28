@@ -3,7 +3,6 @@ Import statements:
     1. Import the built-in json python package
     2. From employee.py, import the details function and the employee_name, age, title variables
 '''
-### WRITE IMPORT STATEMENTS HERE
 import json
 from employee import details, employee_name, age, title
 
@@ -21,7 +20,7 @@ def write_json_to_file(json_obj, output_file):
     Args:
         json_obj: json string containing employee information
     """
-    ### WRITE SOLUTION HERE
+    ### WRITE SOLUTION HERE #DONE
     newfile = open(output_file, "w")
     newfile.write(json_obj)
     newfile.close()
